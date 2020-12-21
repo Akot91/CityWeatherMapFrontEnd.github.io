@@ -1,0 +1,50 @@
+body  {
+	background-image: url("images/background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+.container {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0,0,0, 0.55)
+}
+
+.good-air {
+	background-color: rgba(0, 255, 0, 0.2);
+}
+
+.medium-air {
+	background-color: rgba(255, 255, 0, 0.2);
+}
+
+.bad-air {
+	background-color: rgba(255, 0, 0, 0.2);
+}
+
+.very-bad-air {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+tr td {
+	color: white;
+}
+
+h1 {
+	color: white;
+}
+
+#measurmentDate {
+	color: white;
+}
+
+.cityList {
+	width: 20px; 
+	height: 20px;
+}
+
+.black-row {
+	background-color:black;
+	color:white;
+}
